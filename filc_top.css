@@ -1,0 +1,79 @@
+
+.ul_01{
+  background-color: rgb(0, 255, 179);
+}
+
+.btn-circle-1 label {
+    display: inline-block;
+    text-decoration: none;
+    background: #87befd;
+    color: #FFF;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+    cursor :pointer;
+  }
+  
+  .btn-circle-1 label:hover {
+    background: #668ad8;
+  }
+  .btn-circle-1 input {
+    display: none;
+  }
+  .btn-circle-1 .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.btn-circle-1 input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+
+
+
+.btn-circle-2 label {
+    display: inline-block;
+    text-decoration: none;
+    background: #87befd;
+    color: #FFF;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+    cursor :pointer;
+  }
+  
+  .btn-circle-2 label:hover {
+    background: #668ad8;
+  }
+  .btn-circle-2 input {
+    display: none;
+  }
+  .btn-circle-2 .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.btn-circle-2 input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
