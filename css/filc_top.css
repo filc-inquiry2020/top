@@ -6,6 +6,10 @@
   background-color: rgb(137, 231, 200);
 }
 
+.img_01{
+  max-width: 200px;
+}
+
 .btn-square-slant1 {
   display: inline-block;
   position: relative;
