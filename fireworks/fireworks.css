@@ -3,7 +3,6 @@
 
 h1{
     color: #13e913;
-    background-image: linear-gradient(135deg, #8ecbe6, #e743c3);
 }
 .movie-wrap {
     position: relative;
@@ -51,7 +50,7 @@ h1{
 }
 body {
     padding-top: 56px;
-    background-color: white;
+    background-color: #ffffff;
 
   }
 
