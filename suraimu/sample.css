@@ -1,0 +1,123 @@
+h1{
+    color: #13e913;
+}
+.movie-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+    height: 0;
+    overflow: hidden;
+}
+
+.movie-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hidden_show{
+    background-color: #a9cf55;
+}
+.navbar-brand{
+    color: #13680c;
+}
+.navbar {
+    background-color: #a9cf55;
+  }
+  
+  .nav-link {
+    color: #13680c;
+  }
+
+
+.kiwi{
+    background-color: #a9cf55;
+}
+.melon{
+    background-color: #86c689;
+}
+.banana{
+    background-color: #f5cd21;
+}
+.apple{
+    background-color: #e62053;
+}
+.pine{
+    background-color: #efea3c;
+}
+body {
+    padding-top: 56px;
+
+  }
+
+
+.center1{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+  .btn-circle-1 label {
+    display: inline-block;
+    text-decoration: none;
+    background: #00c080;
+    color: #FFF;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+    cursor :pointer;
+  }
+  
+  .btn-circle-1 label:hover {
+    background: #0a7253;
+  }
+  .btn-circle-1 input {
+    display: none;
+  }
+  .btn-circle-1 .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.btn-circle-1 input:checked ~ .hidden_show {
+
+    height: auto;
+    opacity: 1;
+}
+
+
+
+
+.btn-circle-2 {
+  display: inline-block;
+  text-decoration: none;
+  background: #00c080;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  transition: .4s;
+}
+
+.btn-circle-2:hover {
+  background: #0a7253;
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+
+
