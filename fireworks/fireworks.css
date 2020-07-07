@@ -1,4 +1,5 @@
-
+#canvas { position:fixed;    top:0; left:0; width:100%; height:100%; }
+#body   { position:absolute; top:0; left:0; }
 
 h1{
     color: #13e913;
@@ -50,7 +51,7 @@ h1{
 }
 body {
     padding-top: 56px;
-    background-color: black;
+    background-color: white;
 
   }
 
