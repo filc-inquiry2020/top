@@ -49,7 +49,8 @@ h1{
 }
 #body {
     padding-top: 56px;
-
+    text-align: center;
+    position:absolute;
   }
 body {
     background-color: #ffffff;
