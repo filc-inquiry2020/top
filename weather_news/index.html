@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./6-2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Today Weather</title>
+  </head>
+  <body id="midashi">
+    <style type="text/css"> 
+      .example1 { background-color: #EAD9FF; }
+      .example2 { background-color: #DDFFFF; }
+      .example3 { background-color: #FFD5EC; }
+      .example4 { background-color: #151452;
+                  color: #fff;
+                  border-radius: 5px;
+                  border-style: none;
+                  padding: 3px 12px;
+      }
+      .example5 { background-color: rgb(255, 250, 226);}
+      .example6 { background-color: rgb(255, 239, 217); }
+      .example7 { background-color: #f9d9c3; }
+    </style>
+    <br>
+    <br>
+	  <nav class="navbar navbar-expand-lg navbar-dark  example4 fixed-top" >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <div class=" example4">
+            <a class=" example4 nav-link" data-toggle="dropdown" href="#">
+              Today Weather
+            </a>
+            <ul class="dropdown-menu example4">
+              <ul><a class="nav-link" href="./6-2_01.html">Tokyo Weather</a></ul>
+              <ul><a class="nav-link" href="./saitama_day.html">Saitama Weather</a></ul>
+              <ul><a class="nav-link" href="./chiba_day.html">Chiba Weather</a></ul>
+              <ul><a class="nav-link" href="./kanagawa_day.html">Kanagawa Weather</a></ul>
+            </ul>
+          </div>
+          <div class=" example4">
+            <a class=" example4 nav-link" data-toggle="dropdown" href="#">
+              Week Weather
+            </a>
+            <ul class="dropdown-menu example4">
+              <ul><a class="nav-link" href="./6-2_02.html">Tokyo Weather</a></ul>
+              <ul><a class="nav-link" href="./saitama_week.html">Saitama Weather</a></ul>
+              <ul><a class="nav-link" href="./chiba_week.html">Chiba Weather</a></ul>
+              <ul><a class="nav-link" href="./kanagawa_week.html">Kanagawa Weather</a></ul>
+            </ul>
+          </div>
+
+  
+      
+        </ul>
+      </div>
+      </nav>
+    <div align="center">
+      <br>
+      <h1>今日の天気</h1>
+      <br>
+      <section id="weather"></section>
+    </div>
+
+
+
+
+
+    
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="./6-2_01.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
