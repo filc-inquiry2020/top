@@ -1,3 +1,8 @@
+body{
+    padding-top: 56px;
+}
+
+
 #midashi {
     background:-webkit-linear-gradient(0deg,white, white); 
 }
