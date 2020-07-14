@@ -83,7 +83,6 @@
     }
     /* ボタン全体の位置 */
     .snsbtniti2{
-    display:flex;
     flex-flow:row wrap;
     }
     /* ボタン同士の余白 */
