@@ -13,53 +13,29 @@
 }
 
 .btn-square-slant1 {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
   display: inline-block;
-  position: relative;
-  padding: 0.5em 1.4em;
-  text-decoration: none;
-  background: #668ad8;/*ボタン色*/
-  color: #FFF;
-  border-bottom: solid 5px #36528c;/*ボタン色より暗めに*/
-  border-right: solid 5px #5375bd;/*ボタン色より暗めに*/
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: #1da1f3;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
 }
 
-.btn-square-slant1:before {  
-  content: " ";
-  position: absolute;
-  bottom: -5px;
-  left: -1px;
-  width: 0;
-  height: 0;
-  border-width: 0 6px 6px 0px;
-  border-style: solid;
-  border-color: transparent;
-  border-bottom-color: #FFF;
+.btn-square-slant1:span {  
+  display:inline-block;
+  transition: .5s;
 }
 
-.btn-square-slant1:after {  
-  content: " ";
-  position: absolute;
-  top: -1px;
-  right: -5px;
-  width: 0;
-  height: 0;
-  border-width: 0px 6px 6px 0px;
-  border-style: solid;
-  border-color: #FFF;
-  border-bottom-color: transparent;
-}
 
 .btn-square-slant1:hover {
   /*ボタンを押したとき*/
-  border:none;
-  -webkit-transform: translate(6px,6px);
-  transform: translate(6px,6px);
-  text-decoration: none;
-  color: #FFF;
-}
-
-.btn-square-slant1:hover:after, .btn-square-slant1:hover:before {
-  content: none;/*ボタンを押すと線が消える*/
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
 }
 
 
@@ -68,166 +44,102 @@
 
 
 .btn-square-slant2 {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
   display: inline-block;
-  position: relative;
-  padding: 0.5em 1.4em;
-  text-decoration: none;
-  background: #3b5998;/*ボタン色*/
-  color: #FFF;
-  border-bottom: solid 5px #36528c;/*ボタン色より暗めに*/
-  border-right: solid 5px #5375bd;/*ボタン色より暗めに*/
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: #4966a0;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
 }
 
-.btn-square-slant2:before {  
-  content: " ";
-  position: absolute;
-  bottom: -5px;
-  left: -1px;
-  width: 0;
-  height: 0;
-  border-width: 0 6px 6px 0px;
-  border-style: solid;
-  border-color: transparent;
-  border-bottom-color: #FFF;
+.btn-square-slant2:span {  
+  display:inline-block;
+  transition: .5s;
 }
 
-.btn-square-slant2:after {  
-  content: " ";
-  position: absolute;
-  top: -1px;
-  right: -5px;
-  width: 0;
-  height: 0;
-  border-width: 0px 6px 6px 0px;
-  border-style: solid;
-  border-color: #FFF;
-  border-bottom-color: transparent;
-}
 
-.btn-square-slant2:hover {
+.btn-square-slant2:hover span {
   /*ボタンを押したとき*/
-  border:none;
-  -webkit-transform: translate(6px,6px);
-  transform: translate(6px,6px);
-  text-decoration: none;
-  color: #FFF;
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
 }
 
-.btn-square-slant2:hover:after, .btn-square-slant2:hover:before {
-  content: none;/*ボタンを押すと線が消える*/
-}
 
 
 
 
 
 .btn-square-slant3 {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
   display: inline-block;
-  position: relative;
-  padding: 0.5em 1.4em;
-  text-decoration: none;
-  background: #ff2d2d;/*ボタン色*/
-  color: #FFF;
-  border-bottom: solid 5px #be2323;/*ボタン色より暗めに*/
-  border-right: solid 5px #ff5d5d;/*ボタン色より暗めに*/
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: #ff2d2d;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
 }
 
-.btn-square-slant3:before {  
-  content: " ";
-  position: absolute;
-  bottom: -5px;
-  left: -1px;
-  width: 0;
-  height: 0;
-  border-width: 0 6px 6px 0px;
-  border-style: solid;
-  border-color: transparent;
-  border-bottom-color: #FFF;
+.btn-square-slant3:span {  
+  display:inline-block;
+  transition: .5s;
 }
 
-.btn-square-slant3:after {  
-  content: " ";
-  position: absolute;
-  top: -1px;
-  right: -5px;
-  width: 0;
-  height: 0;
-  border-width: 0px 6px 6px 0px;
-  border-style: solid;
-  border-color: #FFF;
-  border-bottom-color: transparent;
-}
 
-.btn-square-slant3:hover {
+.btn-square-slant3:hover span {
   /*ボタンを押したとき*/
-  border:none;
-  -webkit-transform: translate(6px,6px);
-  transform: translate(6px,6px);
-  text-decoration: none;
-  color: #FFF;
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
 }
-
-.btn-square-slant3:hover:after, .btn-square-slant3:hover:before {
-  content: none;/*ボタンを押すと線が消える*/
-}
-
-
 
 
 
 
 .btn-square-slant4 {
-  display: inline-block;
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
   position: relative;
-  padding: 0.5em 1.4em;
-  text-decoration: none;
-  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-  color: #FFF;
-  border-bottom: solid 5px #36528c;/*ボタン色より暗めに*/
-  border-right: solid 5px #5375bd;/*ボタン色より暗めに*/
+  display: inline-block;
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
 }
-
 .btn-square-slant4:before {  
-  content: " ";
+ /*グラデーション②*/
+  content: '';
   position: absolute;
-  bottom: -5px;
-  left: -1px;
-  width: 0;
-  height: 0;
-  border-width: 0 6px 6px 0px;
-  border-style: solid;
-  border-color: transparent;
-  background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  top: 0;
+  left: 0;
+  width: 100%;/*全体を覆う*/
+  height: 100%;/*全体を覆う*/
   background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
-  border-bottom-color: #FFF;
 }
 
-.btn-square-slant4:after {  
-  content: " ";
-  position: absolute;
-  top: -1px;
-  right: -5px;
-  width: 0;
-  height: 0;
-  border-width: 0px 6px 6px 0px;
-  border-style: solid;
-  border-color: #FFF;
-  border-bottom-color: transparent;
-}
 
-.btn-square-slant4:hover {
+.btn-square-slant4:span {  
+display:inline-block;
+  position: relative;
+  transition: .5s}
+
+.btn-square-slant4:hover span {
   /*ボタンを押したとき*/
-  border:none;
-  -webkit-transform: translate(6px,6px);
-  transform: translate(6px,6px);
-  text-decoration: none;
-  color: #FFF;
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
 }
 
-.btn-square-slant4:hover:after, .btn-square-slant1:hover:before {
-  content: none;/*ボタンを押すと線が消える*/
-}
 
 
 
