@@ -1,8 +1,9 @@
 
 .tan_img{
-  max-width: 400px;
+  max-width: 500px;
   text-align: center;
   height: auto;
+  object-fit: contain;
   
   
 }
