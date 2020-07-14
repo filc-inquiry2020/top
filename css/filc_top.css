@@ -27,7 +27,13 @@
   line-height: 50px;/*高さと合わせる*/
   background: #1da1f3;
   overflow: hidden;/*はみ出た部分を隠す*/
-  text-decoration:none;/*下線は消す*/
+  text-decoration:none;/*下線は消す*/ 
+  border-style: none;
+}
+.btn-square-slant1:hover {
+  color: #FFF;/*文字・アイコン色*/
+  text-decoration:none;/*下線は消す*/ 
+  border-style: none;
 }
 
 
