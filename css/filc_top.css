@@ -30,19 +30,7 @@
   text-decoration:none;/*下線は消す*/
 }
 
-.btn-square-slant1:span {  
-  display:inline-block;
-  transition: .5s;
-}
 
-
-.btn-square-slant1:hover {
-  /*ボタンを押したとき*/
-  -webkit-transform: rotateX(360deg);
-  transform: rotateX(360deg);
-  border-style: none;
-  color: #FFF;
-}
 
 
 
