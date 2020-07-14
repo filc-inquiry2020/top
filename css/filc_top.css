@@ -1,8 +1,5 @@
 
-.sns:link {
-  color: white; 
-  border-style: none;
-}
+
 .img_size{
   width: 100px;
 }
@@ -16,136 +13,83 @@
   margin: 5 auto;
 }
 
-.btn-square-slant1 {
-  color: #FFF;/*文字・アイコン色*/
-  border-radius: 7px;/*角丸に*/
-  display: inline-block;
-  height: 50px;/*高さ*/
-  width: 190px;/*幅*/
-  text-align: center;/*中身を中央寄せ*/
-  font-size: 25px;/*文字のサイズ*/
-  line-height: 50px;/*高さと合わせる*/
-  background: #1da1f3;
-  overflow: hidden;/*はみ出た部分を隠す*/
-  text-decoration:none;/*下線は消す*/ 
-  border-style: none;
-}
-.btn-square-slant1:hover {
-  color: #FFF;/*文字・アイコン色*/
-  text-decoration:none;/*下線は消す*/ 
-  border-style: none;
-}
 
+/* ボタン全体 */
+.flowbtn14{
+    font-family:'Arial', sans-serif;	
+    display:inline-block;
+    width:150px;
+    font-size:23px;
+    text-align:left;
+    background:#f3f3f3;
+    border-radius:0 4px 4px 0; 
+    color:#666!important;
+    text-decoration:none;
+    margin-bottom:5px;
+    margin-left:5px;
+    }
+    .flowbtn14:hover{
+    text-decoration:none;
+    }
+    /* Twitter */
+    .flowbtn14.fl_tw14{
+    border-left:solid 5px #55acee;	
+    padding-left:8px;		
+    }
+    /* Twitterマウスホバー時 */
+    .fl_tw14:hover{
+    color:#55acee !important;
+    }
+    /* Instagram */
+    .flowbtn14.insta_btn14{
+    border-left:solid 5px #c6529a;
+    padding-left:8px;				
+    }
+    /* Instagramマウスホバー時 */
+    .insta_btn14:hover{
+    color:#c6529a!important;	
+    }
+    /* Facebook */
+    .flowbtn14.fl_fb14{
+    border-left:solid 5px #3b5998;
+    padding-left:8px;				
+    }
+    /* Facebookマウスホバー時 */
+    .fl_fb14:hover{
+    color:#3b5998 !important;
+    }
 
+    /* YouTube */
+    .flowbtn14.fl_yu14{
+    border-left:solid 5px #fc0d1c;
+    padding-left:8px;				
+    }
+    /* YouTubeマウスホバー時 */
+    .fl_yu14:hover{
+    color: #fc0d1c!important;	
+    }
 
-
-
-
-
-
-.btn-square-slant2 {
-  color: #FFF;/*文字・アイコン色*/
-  border-radius: 7px;/*角丸に*/
-  display: inline-block;
-  height: 50px;/*高さ*/
-  width: 190px;/*幅*/
-  text-align: center;/*中身を中央寄せ*/
-  font-size: 25px;/*文字のサイズ*/
-  line-height: 50px;/*高さと合わせる*/
-  background: #4966a0;
-  overflow: hidden;/*はみ出た部分を隠す*/
-  text-decoration:none;/*下線は消す*/
-}
-
-.btn-square-slant2:span {  
-  display:inline-block;
-  transition: .5s;
-}
-
-
-.btn-square-slant2:hover span {
-  /*ボタンを押したとき*/
-  -webkit-transform: rotateX(360deg);
-  transform: rotateX(360deg);
-  border-style: none;
-  color: #FFF;
-}
-
-
-
-
-
-
-.btn-square-slant3 {
-  color: #FFF;/*文字・アイコン色*/
-  border-radius: 7px;/*角丸に*/
-  display: inline-block;
-  height: 50px;/*高さ*/
-  width: 190px;/*幅*/
-  text-align: center;/*中身を中央寄せ*/
-  font-size: 25px;/*文字のサイズ*/
-  line-height: 50px;/*高さと合わせる*/
-  background: #ff2d2d;
-  overflow: hidden;/*はみ出た部分を隠す*/
-  text-decoration:none;/*下線は消す*/
-}
-
-.btn-square-slant3:span {  
-  display:inline-block;
-  transition: .5s;
-}
-
-
-.btn-square-slant3:hover span {
-  /*ボタンを押したとき*/
-  -webkit-transform: rotateX(360deg);
-  transform: rotateX(360deg);
-  border-style: none;
-  color: #FFF;
-}
-
-
-
-
-.btn-square-slant4 {
-  color: #FFF;/*文字・アイコン色*/
-  border-radius: 7px;/*角丸に*/
-  position: relative;
-  display: inline-block;
-  height: 50px;/*高さ*/
-  width: 190px;/*幅*/
-  text-align: center;/*中身を中央寄せ*/
-  font-size: 25px;/*文字のサイズ*/
-  line-height: 50px;/*高さと合わせる*/
-  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
-  overflow: hidden;/*はみ出た部分を隠す*/
-  text-decoration:none;/*下線は消す*/
-}
-.btn-square-slant4:before {  
- /*グラデーション②*/
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;/*全体を覆う*/
-  height: 100%;/*全体を覆う*/
-  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
-}
-
-
-.btn-square-slant4:span {  
-display:inline-block;
-  position: relative;
-  transition: .5s}
-
-.btn-square-slant4:hover span {
-  /*ボタンを押したとき*/
-  border-style: none;
-  -webkit-transform: rotateX(360deg);
-  transform: rotateX(360deg);
-  color: #FFF;
-}
-
+    /* ボタン内テキスト調整 */
+    .flowbtn14 span{
+    font-size:16px;	
+    position:relative;
+    left:8px;
+    bottom:3px;	
+    }
+    /* ulタグの内側余白を０にする */
+    ul.snsbtniti2{
+    padding:0!important;
+    list-style-type:none!important;
+    }
+    /* ボタン全体の位置 */
+    .snsbtniti2{
+    display:flex;
+    flex-flow:row wrap;
+    }
+    /* ボタン同士の余白 */
+    .snsbtniti2 li{
+    text-align:center!important;
+    }
 
 
 
