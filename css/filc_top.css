@@ -198,6 +198,8 @@
   border-width: 0 6px 6px 0px;
   border-style: solid;
   border-color: transparent;
+  background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
   border-bottom-color: #FFF;
 }
 
