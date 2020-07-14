@@ -1,11 +1,13 @@
-
+.list-group{
+  padding-top: 56px;
+}
 .tan_img{
   max-width: 500px;
   text-align: center;
   height: auto;
   object-fit: contain;
   background: -webkit-linear-gradient(0deg,rgb(0, 255, 196), rgb(0, 195, 255));
-  padding-top: 56px;
+  
 }
 .img_size{
   width: 100px;
