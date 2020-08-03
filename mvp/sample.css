@@ -1,7 +1,5 @@
 body{
     padding-top: 56px;
-    background-color: #FFDEAD;
-    color: #FA8072;
 }
 .kiwi{
     background-color: #a9cf55;
@@ -19,6 +17,11 @@ body{
     background-color: #efea3c;
 }
 
+
+h4,h3,h2{
+    background-color: #FFDEAD;
+    color: #FF8C00;
+}
 
 .star {
     animation: kirakira 8s linear;
