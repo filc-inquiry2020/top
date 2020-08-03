@@ -1,5 +1,6 @@
 body{
     padding-top: 56px;
+    background:-webkit-linear-gradient(0deg,rgba(255,20,147,0.6), rgb(0,0,153,0.6)); 
 }
 .kiwi{
     background-color: #a9cf55;
