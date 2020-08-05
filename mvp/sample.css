@@ -1,3 +1,13 @@
+.navbar-brand{
+    color: #13680c;
+}
+.navbar {
+    background-color: #a9cf55;
+  }
+  
+  .nav-link {
+    color: #13680c;
+  }
 body{
     padding-top: 56px;
     background-color: #FFDEAD;
