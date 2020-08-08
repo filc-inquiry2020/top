@@ -2,6 +2,11 @@ body.body {
   background-color: rgb(204,255,204);
   color: #ff6600;
 }
+body {
+    padding-top: 56px;
+
+  }
+
 .star {
     animation: kirakira 8s linear;
     color: yellow;
@@ -12,6 +17,16 @@ body.body {
     top: -1em;
     z-index: 1000;
 }
+.navbar-brand{
+    color: #13680c;
+}
+.navbar {
+    background-color: #a9cf55;
+  }
+  
+  .nav-link {
+    color: #13680c;
+  }
 
 @keyframes kirakira {
     0% {
