@@ -1,6 +1,6 @@
 body.body {
   background-color: rgb(204,255,204);
-  color: #ff6600;
+  color: #008080;
 }
 body {
     padding-top: 56px;
@@ -23,7 +23,7 @@ body {
 
 .star {
     animation: kirakira 8s linear;
-    color: yellow;
+    color: #00ff00;
     display: inline-block;
     height: 1em;
     line-height: 1em;
